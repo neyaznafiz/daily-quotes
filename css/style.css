@@ -1,15 +1,16 @@
+
 .transition-effect{
     white-space: nowrap;
     position: relative;
     color: transparent;
 }
 .transition-effect::before{
-content: 'Photographer';
+content: 'GET YOUR DAILY QUOTES';
 position: absolute;
 color: white;
 top: 0;
 left: 0;
-animation: typing 4s infinite;
+animation: typing 3s infinite;
 }
 
 @keyframes typing{
