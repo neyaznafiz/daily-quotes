@@ -1,0 +1,95 @@
+.transition-effect{
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.transition-effect::before{
+content: 'Photographer';
+position: absolute;
+color: white;
+top: 0;
+left: 0;
+animation: typing 4s infinite;
+}
+
+@keyframes typing{
+
+0%{
+    content: 'G_';
+}
+4%{
+    content: 'GE_';
+}
+8%{
+    content: 'GET_';
+}
+12%{
+    content: 'GET _';
+}
+16%{
+    content: 'GET Y_';
+}
+20%{
+    content: 'GET YO_';
+}
+24%{
+    content: 'GET YOU_';
+}
+28%{
+    content: 'GET YOUR_';
+}
+32%{
+    content: 'GET YOUR _';
+}
+36%{
+    content: 'GET YOUR D_';
+}
+40%{
+    content: 'GET YOUR DA_';
+}
+44%{
+    content: 'GET YOUR DAI_';
+}
+48%{
+    content: 'GET YOUR DAILY_';
+}
+52%{
+content: 'GET YOUR DAILY _';
+}
+56%{
+content: 'GET YOUR DAILY Q_';
+}
+60%{
+    content: 'GET YOUR DAILY QU_';
+}
+64%{
+    content: 'GET YOUR DAILY QUO_';
+}
+68%{
+    content: 'GET YOUR DAILY QUOT_';
+}
+72%{
+    content: 'GET YOUR DAILY QUOTE_';
+}
+76%{
+    content: 'GET YOUR DAILY QUOTES_';
+}
+80%, 90%{
+    content: 'GET YOUR DAILY QUOTES_';
+}
+92%{
+    content: 'GET YOUR DAILY QUOTES_';
+}
+94%{
+    content: 'GET YOUR DAILY_';
+}
+96%{
+    content: 'GET YOUR _';
+}
+98%{
+    content: GET_'
+}
+100%{
+    content: '_';
+}
+}
